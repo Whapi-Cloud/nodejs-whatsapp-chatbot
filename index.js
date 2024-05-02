@@ -78,7 +78,7 @@ async function setHook() {  // request for set hook and recieve messages
                     url: config.botUrl,
                     events: [
                         // default event for getting messages
-                        {type: "message", method: "post"}
+                        {type: "messages", method: "post"}
                     ],
                     mode: "method"
                 }
